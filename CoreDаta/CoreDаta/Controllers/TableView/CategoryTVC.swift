@@ -16,6 +16,7 @@ class CategoryTVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.hidesBackButton = true
         getData()
     }
     
