@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		62F5CDD12AE971D000D21804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5CDD02AE971D000D21804 /* AppDelegate.swift */; };
 		62F5CDD32AE971D000D21804 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5CDD22AE971D000D21804 /* SceneDelegate.swift */; };
-		62F5CDD82AE971D000D21804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F5CDD62AE971D000D21804 /* Main.storyboard */; };
 		62F5CDDA2AE971D300D21804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F5CDD92AE971D300D21804 /* Assets.xcassets */; };
-		62F5CDDD2AE971D300D21804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F5CDDB2AE971D300D21804 /* LaunchScreen.storyboard */; };
-		62F5CDEC2AE9733600D21804 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62F5CDEA2AE9733600D21804 /* CoreData.xcdatamodeld */; };
+		62F5CDF22AE974B400D21804 /* StartScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F5CDF12AE974B400D21804 /* StartScreen.storyboard */; };
+		62F5CDF52AE974F400D21804 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5CDF42AE974F400D21804 /* StartScreenViewController.swift */; };
+		62F5CDF82AE9762F00D21804 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 62F5CDF72AE9762F00D21804 /* Lottie */; };
+		62F5CE092AE9824900D21804 /* storage.json in Resources */ = {isa = PBXBuildFile; fileRef = 62F5CE082AE9824900D21804 /* storage.json */; };
+		62F5CE0E2AE98BDD00D21804 /* CategoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5CE0D2AE98BDC00D21804 /* CategoryTVC.swift */; };
+		62F5CE112AE98C2300D21804 /* ToDoListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F5CE102AE98C2300D21804 /* ToDoListTVC.swift */; };
+		62F5CE132AE98DC900D21804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F5CE122AE98DC900D21804 /* Main.storyboard */; };
+		62F5CE192AE9922A00D21804 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 62F5CE172AE9922A00D21804 /* CoreData.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		62F5CDCD2AE971D000D21804 /* CoreDаta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreDаta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F5CDD02AE971D000D21804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62F5CDD22AE971D000D21804 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		62F5CDD72AE971D000D21804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62F5CDD92AE971D300D21804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		62F5CDDC2AE971D300D21804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62F5CDDE2AE971D300D21804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		62F5CDEB2AE9733600D21804 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		62F5CDF12AE974B400D21804 /* StartScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StartScreen.storyboard; sourceTree = "<group>"; };
+		62F5CDF42AE974F400D21804 /* StartScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		62F5CE082AE9824900D21804 /* storage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = storage.json; sourceTree = "<group>"; };
+		62F5CE0D2AE98BDC00D21804 /* CategoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTVC.swift; sourceTree = "<group>"; };
+		62F5CE102AE98C2300D21804 /* ToDoListTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTVC.swift; sourceTree = "<group>"; };
+		62F5CE122AE98DC900D21804 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		62F5CE182AE9922A00D21804 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F5CDF82AE9762F00D21804 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +66,7 @@
 		62F5CDCF2AE971D000D21804 /* CoreDаta */ = {
 			isa = PBXGroup;
 			children = (
+				62F5CE0A2AE984A300D21804 /* Extensions */,
 				62F5CDE52AE9720E00D21804 /* Resources */,
 				62F5CDE42AE971F400D21804 /* Application */,
 				62F5CDE82AE972C800D21804 /* Models */,
@@ -77,6 +88,7 @@
 		62F5CDE52AE9720E00D21804 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				62F5CDF92AE9770000D21804 /* Animation */,
 				62F5CDD92AE971D300D21804 /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -94,8 +106,8 @@
 		62F5CDE72AE972BD00D21804 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				62F5CDD62AE971D000D21804 /* Main.storyboard */,
-				62F5CDDB2AE971D300D21804 /* LaunchScreen.storyboard */,
+				62F5CE122AE98DC900D21804 /* Main.storyboard */,
+				62F5CDF12AE974B400D21804 /* StartScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -103,7 +115,7 @@
 		62F5CDE82AE972C800D21804 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				62F5CDEA2AE9733600D21804 /* CoreData.xcdatamodeld */,
+				62F5CE172AE9922A00D21804 /* CoreData.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -111,8 +123,34 @@
 		62F5CDE92AE972D000D21804 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				62F5CDF32AE974C500D21804 /* StartScreen */,
+				62F5CE0D2AE98BDC00D21804 /* CategoryTVC.swift */,
+				62F5CE102AE98C2300D21804 /* ToDoListTVC.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		62F5CDF32AE974C500D21804 /* StartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				62F5CDF42AE974F400D21804 /* StartScreenViewController.swift */,
+			);
+			path = StartScreen;
+			sourceTree = "<group>";
+		};
+		62F5CDF92AE9770000D21804 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				62F5CE082AE9824900D21804 /* storage.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		62F5CE0A2AE984A300D21804 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +169,9 @@
 			dependencies = (
 			);
 			name = "CoreDаta";
+			packageProductDependencies = (
+				62F5CDF72AE9762F00D21804 /* Lottie */,
+			);
 			productName = "CoreDаta";
 			productReference = 62F5CDCD2AE971D000D21804 /* CoreDаta.app */;
 			productType = "com.apple.product-type.application";
@@ -159,6 +200,9 @@
 				Base,
 			);
 			mainGroup = 62F5CDC42AE971D000D21804;
+			packageReferences = (
+				62F5CDF62AE9762F00D21804 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = 62F5CDCE2AE971D000D21804 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -173,9 +217,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62F5CDDD2AE971D300D21804 /* LaunchScreen.storyboard in Resources */,
 				62F5CDDA2AE971D300D21804 /* Assets.xcassets in Resources */,
-				62F5CDD82AE971D000D21804 /* Main.storyboard in Resources */,
+				62F5CDF22AE974B400D21804 /* StartScreen.storyboard in Resources */,
+				62F5CE092AE9824900D21804 /* storage.json in Resources */,
+				62F5CE132AE98DC900D21804 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,30 +233,14 @@
 			files = (
 				62F5CDD12AE971D000D21804 /* AppDelegate.swift in Sources */,
 				62F5CDD32AE971D000D21804 /* SceneDelegate.swift in Sources */,
-				62F5CDEC2AE9733600D21804 /* CoreData.xcdatamodeld in Sources */,
+				62F5CE192AE9922A00D21804 /* CoreData.xcdatamodeld in Sources */,
+				62F5CE112AE98C2300D21804 /* ToDoListTVC.swift in Sources */,
+				62F5CDF52AE974F400D21804 /* StartScreenViewController.swift in Sources */,
+				62F5CE0E2AE98BDD00D21804 /* CategoryTVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		62F5CDD62AE971D000D21804 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62F5CDD72AE971D000D21804 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		62F5CDDB2AE971D300D21804 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62F5CDDC2AE971D300D21804 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		62F5CDDF2AE971D300D21804 /* Debug */ = {
@@ -342,9 +371,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W2HCKKQTYD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CoreDаta/Info.plist";
+				INFOPLIST_FILE = "CoreDаta/Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = StartScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -370,9 +399,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W2HCKKQTYD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CoreDаta/Info.plist";
+				INFOPLIST_FILE = "CoreDаta/Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = StartScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -412,13 +441,32 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		62F5CDF62AE9762F00D21804 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		62F5CDF72AE9762F00D21804 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 62F5CDF62AE9762F00D21804 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+
 /* Begin XCVersionGroup section */
-		62F5CDEA2AE9733600D21804 /* CoreData.xcdatamodeld */ = {
+		62F5CE172AE9922A00D21804 /* CoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				62F5CDEB2AE9733600D21804 /* CoreData.xcdatamodel */,
+				62F5CE182AE9922A00D21804 /* CoreData.xcdatamodel */,
 			);
-			currentVersion = 62F5CDEB2AE9733600D21804 /* CoreData.xcdatamodel */;
+			currentVersion = 62F5CE182AE9922A00D21804 /* CoreData.xcdatamodel */;
 			path = CoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
